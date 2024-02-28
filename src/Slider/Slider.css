@@ -1,0 +1,11 @@
+.slider{
+    width: 13rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    height: 15rem;
+}
+.slider img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

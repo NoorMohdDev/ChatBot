@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.container {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+  gap: 50px;
+  border-radius: 7px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 28px;
+  padding: 1.5rem;
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+}
+.getName {
+  display: flex;
+  row-gap: 1.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.getName input {
+  font-size: medium;
+  border-radius: 9rem;
+  border: 0;
+  padding: 0.5rem;
+  padding-left: 1rem;
+}
+
+.getName button {
+  color: white;
+  font-size: small;
+  border-radius: 5px;
+  border: 0;
+  padding: 0.6rem 2rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 28px;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}

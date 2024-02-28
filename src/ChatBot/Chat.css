@@ -1,0 +1,34 @@
+.chatBox{
+    display: flex;
+    padding-top: 5px;
+    flex-direction: column;
+    position: relative;
+    align-items: self-end;
+    overflow: hidden;
+    
+}
+.chat{
+    display: flex;
+    align-items: center;
+    margin: -.7rem 0;
+}
+.chatText{
+background-color: rgb(241, 248, 234);
+word-wrap: break-word;
+font-size: .8rem;
+padding: 4px 1.3rem;
+border-radius: 12px;
+max-width: 12rem;
+}
+.chatText p {
+    min-width: fit-content;
+    max-width: 12rem;
+}
+.bot{
+    width: 40px;
+    height: 40px;
+}
+.bot img{
+    width: 100%;
+    height:auto
+}
